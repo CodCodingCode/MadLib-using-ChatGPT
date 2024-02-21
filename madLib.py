@@ -1,8 +1,6 @@
 ##
 # @description: This program uses the OpenAI API to create a custom madLib story.
 # @author Nathan Yan
-# @course ICS3UC
-# @date 2022-02-22
 ##
 
 #importing neeeded libraries
@@ -12,7 +10,7 @@ from pathlib import Path
 
 
 #OpenAI API key
-client = OpenAI(api_key = "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")
+client = OpenAI(api_key = "API_KEY")
 
 #The type of story the user wants to create
 typeOfStory = input("What type of story do you want? Ex.'a story about a fish.'")
